@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar start */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(103, 100, 100);
+    height: 3.5rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 30px;
+   
+    
+
+
+}
+.navbar h2{
+    color: rgb(210, 140, 55);;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+}
+
+#nav-list a{
+    color:rgb(210, 140, 55);;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+#nav-list a:hover{
+    background-color: gray;
+    
+    
+}
+
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    word-spacing: 1.5rem;   
+    
+    
+}
+/* navbar end */
+
+/* Hero section start */
+.hero-section{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+
+}
+.hero-img{
+    display: flex;
+    width: 400px;
+    height: 380px;
+    padding-left:40px ;
+    padding-right: 40px;
+    /* border: 1px solid black; */
+}
+.text-section{
+    text-transform: uppercase;
+
+    font-size:2.5rem;
+    padding: 30px;
+    color: rgb(210, 140, 55);
+    /* border: 1px solid black; */
+
+}
+#span-text{
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 15px;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .6s step-end infinite;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(72, 70, 70) }
+  }
+
+  #click-btn{
+    color:black;
+    background-color: rgb(203, 155, 42);
+    cursor: pointer;
+    border: 2px solid rgb(18, 20, 18);
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+#click-btn:hover{
+    background-color: rgb(210, 140, 55);
+    
+}
+
+#bd-discount{
+    width: 400px;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+/* hero section end */
+
+
+
+
+/* Section  start */
+#special-text{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    padding-top:10px ;
+    padding-top: 30px;
+    color: rgb(210, 140, 55);
+}
+
+.home-section-1{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
+}
+.home-section-2{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 280px;
+
+}
+
+.section1{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+
+}
+.home-img{
+    width: 300px;
+    
+}
+.p-section h3{
+    font-size: 1.8rem;
+
+}
+.p-section p{
+    font-size: 1rem;
+    padding-right: 20px;
+    
+}
+button{
+    width: 110px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(22, 140, 22);
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgb(69, 69, 66);
+    
+}
+button:hover{
+    background-color: gray;
+    box-shadow: 1px 1px 12px rgb(223, 223, 23);
+
+}
+/* section end */
+
+/* Midd section start */
+.midd-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+#midd-image{
+    width: 400px;
+}
+
+.midd-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#off-image{
+    width: 150px;
+}
+#dic-text{
+    background-color: green;
+    color:#fff;
+}
+
+
+/* mid section end */
+
+/* footer section start */
+.footer-section{
+    margin-top: 40px;
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.about-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+
+}
+.social-icon a{
+    color:black;
+    text-decoration: none;
+    
+    
+}
+.footer-usefull{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-usefull ul{
+    list-style-type: none;
+
+
+}
+
+
+/* footer section end */
+
+
+/* media qurie start */
+
+@media (max-width:720px) {
+
+    .navbar {
+        height: 7.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
